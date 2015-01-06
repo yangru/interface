@@ -1,0 +1,59 @@
+@charset "utf-8";
+body, div, dl, dt, dd, ul, ol, li, table, thead, tbody, tfoot, tr, th, td, pre, form, fieldset, input, select, textarea, p, b, blockquote {
+	font-weight:400;
+	margin:0;
+	padding:0;
+	border:none;
+}
+h1, h2, h3, h4, h5, h6{
+	margin:0;
+	padding:0;
+}
+h2 {
+	font-size:16px;
+}
+h3 {
+	font-size:14px;
+}
+h4 {
+	font-size:12px;
+}
+em, cite, strong, th {
+	text-align: left;
+	font-style: normal;
+}
+body{
+	background-color:#FFFFFF;
+	color:#000;
+	font-family:"Simsun",Tahoma,Arial,sans-serif;
+	font-size:12px;
+	text-align:left;
+}
+ol,ul{
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+a:link, a:visited {
+	color: #990000;
+	text-decoration: none;
+}
+a:active, a:hover {
+	color:#990000 !important;
+	text-decoration: underline; 
+}
+img{
+	border:0 none;  
+}
+.clearfix:after{
+	clear:both;
+	content:' ';
+	display:block;
+	height:0;
+    overflow:hidden;
+}
+.clearfix {
+	zoom:1;
+}

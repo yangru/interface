@@ -1,0 +1,299 @@
+@charset "utf-8";
+/* CSS Document */
+#container {
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	min-width: 960px;
+}
+#container h4 {
+	color: #333333;
+	font-size: 12px;
+}
+#container h3 {
+	color: #333333;
+	margin: 10px 0;
+}
+#container h3 span {
+	color: #ff0000;
+}
+#main {
+	width: 960px;
+	margin: 10px auto;
+}
+#mask {
+	background: url("/static/iframe/videoguess/images/bg/grid_loader.gif") #666666 no-repeat scroll center center;
+	display: none;
+	height: 100% !important;
+	left: 0;
+	position: absolute !important;
+	top: 0;
+	width: 100% !important;
+	z-index: 100;
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+}
+#main .titlelist {
+
+}
+#main .titlelist .title_left {
+	float: left;
+}
+#main .titlelist .title_left p {
+	margin: 5px 0 0 0;
+}
+#main .titlelist .title_left p span.hong {
+	color: #ce181b;
+}
+#main .titlelist .title_left p span.dhong {
+	color: #ce181b;
+	font-size: 18px;
+}
+#main .titlelist .title_right {
+	float: right;
+}
+#main .titlelist .title_right input {
+	background: url("/static/iframe/videoguess/images/bg/bg_tuijian.gif") no-repeat scroll 0 0 transparent;
+	cursor: pointer;
+	height: 32px;
+	width: 147px;
+}
+#main .section {
+	margin: 50px 0;
+}
+#main .section .lunhuan {
+	position: relative;
+}
+#main .section .lunhuan .buttonL {
+	float: left;
+	margin: 150px 0 0 0;
+}
+#main .section .lunhuan .buttonL a {
+	background: url("/static/iframe/videoguess/images/bg/bg_btnL.gif") no-repeat;
+	width: 45px;
+	height: 45px;
+	display: block;
+}
+#main .section .lunhuan .buttonL a:hover {
+	background: url("/static/iframe/videoguess/images/bg/bg_btnL_active.gif") no-repeat;
+	width: 45px;
+	height: 45px;
+	display: block;
+}
+#main .section .lunhuan .buttonR {
+	float: right;
+	margin: 150px 0 0 0;
+}
+#main .section .lunhuan .buttonR a {
+	background: url("/static/iframe/videoguess/images/bg/bg_btnR.gif") no-repeat;
+	width: 45px;
+	height: 45px;
+	display: block;
+}
+#main .section .lunhuan .buttonR a:hover {
+	background: url("/static/iframe/videoguess/images/bg/bg_btnR_active.gif") no-repeat;
+	width: 45px;
+	height: 45px;
+	display: block;
+}
+#main .section .lunhuan .lunhuan_content {
+	width: 850px;
+	margin: 0 10px 0 10px;
+	overflow: hidden;
+	position: relative;
+	float: left;
+}
+#main .section .lunhuan .lunhuan_content .pics {
+	width: 10000px;
+	position: relative;
+}
+#main .section .lunhuan .lunhuan_content .pics .tuwen {
+	float: left;
+	width: 172px;
+	position: relative;
+}
+#main .section .lunhuan .lunhuan_content .pics .tuwen .tuwen0 {
+	position: relative;
+	border-bottom: 1px solid #CCCCCC;
+	padding: 0 12px 12px 0;
+}
+#main .section .lunhuan .lunhuan_content .pics .tuwen .tuwen1 {
+	position: relative;
+	padding: 0 12px 0 0;
+	margin: 18px 0 0 0;
+}
+#main .section .lunhuan .lunhuan_content .pics .tuwen a {
+	display: block;
+}
+#main .section .lunhuan .lunhuan_content .pics .tuwen img {
+	width: 160px;
+	height: 120px;
+	display: block;
+	cursor: pointer;
+}
+#main .section .lunhuan .lunhuan_content .pics .tuwen span.like {
+	top: 0px;
+	width: 42px;
+	height: 42px;
+	background-image: url('/static/iframe/videoguess/images/bg/img_like.png');
+	_background-image: url('/static/iframe/videoguess/images/bg/img_like.gif');
+	display: block;
+	position: absolute;
+}
+#main .section .lunhuan .lunhuan_content .pics .tuwen span.active {
+	background: url("/static/iframe/videoguess/images/bg/icon_floatimg.png") no-repeat scroll 0 0 transparent;
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	display: block;
+	top: 42px;
+	left: 62px;
+}
+#main .section .lunhuan .lunhuan_content .pics .tuwen p {
+	color: #666666;
+	font-size: 12px;
+	height: 32px;
+	line-height: 16px;
+	overflow: hidden;
+	padding: 5px 0 0;
+	position:relative;
+}
+#main .section .lunhuan .lunhuan_content .pics .tuwen p em {
+	color: #666666;
+	font-size: 12px;
+	line-height: 16px;
+}
+#main .section .lunhuan .lunhuan_content .pics .tuwen p a {
+	display: inline;
+}
+#main .section .lunhuan .lunhuan_content .lunhuanBtn {
+	margin: 18px 0 0 0;
+	text-align: center;
+	float: left;
+	position: relative;
+}
+#main .section .lunhuan .lunhuan_content .lunhuanBtn li {
+	float: left;
+}
+#main .section .lunhuan .lunhuan_content .lunhuanBtn li a {
+	background: url('/static/iframe/videoguess/images/bg/dot_b.gif') no-repeat;
+	display: inline-block;
+	margin: 0 5px;
+	width: 9px;
+	height: 9px;
+}
+#main .section .lunhuan .lunhuan_content .lunhuanBtn li a.active {
+	background: url('/static/iframe/videoguess/images/bg/dot_h.gif') no-repeat;
+	width: 9px;
+	height: 9px;
+}
+#main .section div.bottom p a:link, #main .section div.bottom p a:visited {
+	color: #3399fe;
+	text-decoration: none;
+}
+#main .section div.bottom p a:active, #main .section div.bottom p a:hover {
+	color: #3399fe !important;
+	text-decoration: underline;
+}
+#main #guess .lunhuan .buttonL {
+	float: left;
+	margin: 45px 0 0;
+}
+#main #guess .lunhuan .lunhuan_content .pics .tuwen .tuwen0 {
+	border: none;
+}
+#main #guess .lunhuan .buttonR {
+	float: right;
+	margin: 45px 0 0;
+}
+.crossline {
+	background: url('/static/iframe/videoguess/images/bg/bg_line.jpg') no-repeat;
+	width: 960px;
+	height: 10px;
+}
+#classresult .classshowLan {
+	padding: 0 0 50px 0;
+	margin: 0 0 50px 0;
+}
+/*#classresult .classshowLanLast{
+ border:none;
+ }*/
+#classresult .classshowLan h3 {
+	margin: 0 0 10px 0;
+}
+#classresult .classshowLan .lunhuanlan {
+	border: 1px solid #CCCCCC;
+	padding: 25px 5px;
+}
+#classresult .classshowLan .lunhuanlan .Lbtn {
+	float: left;
+	cursor: pointer;
+}
+#classresult .classshowLan .lunhuanlan .Lbtn .prv {
+	background: url("/static/iframe/videoguess/images/bg/bg_btnLx.gif") no-repeat scroll 0 0 transparent;
+	display: block;
+	height: 24px;
+	width: 14px;
+	margin: 55px 0 0 0;
+}
+#classresult .classshowLan .lunhuanlan .lan_nr {
+	width: 900px;
+	float: left;
+	margin: 0 0 0 11px;
+	overflow: hidden;
+	position: relative;
+}
+#classresult .classshowLan .lunhuanlan .lan_nr .imgscroll {
+	width: 99999px;
+	position: relative;
+}
+#classresult .classshowLan .lunhuanlan .lan_nr .imgscroll .tuwen {
+	width: 160px;
+	float: left;
+	margin: 0 25px 0 0;
+}
+#classresult .classshowLan .lunhuanlan .lan_nr .imgscroll .tuwen a {
+	position: relative;
+	display: block;
+}
+#classresult .classshowLan .lunhuanlan .lan_nr .imgscroll .tuwen a img {
+	width: 160px;
+	height: 120px;
+}
+#classresult .classshowLan .lunhuanlan .lan_nr .imgscroll .tuwen a span.active {
+	background: url("/static/iframe/videoguess/images/bg/icon_floatimg.png") no-repeat scroll 0 0 transparent;
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	display: block;
+	top: 42px;
+	left: 62px;
+}
+#classresult .classshowLan .lunhuanlan .lan_nr .imgscroll .tuwen p {
+	color: #666666;
+    font-size: 12px;
+    height: 32px;
+    line-height: 16px;
+    overflow: hidden;
+    padding: 5px 0 0;
+    position: relative;
+	margin:3px 0 0 0;
+}
+#classresult .classshowLan .lunhuanlan .lan_nr .imgscroll .tuwen p em {
+    color: #666666;
+    font-size: 12px;
+    line-height: 16px;
+}
+#classresult .classshowLan .lunhuanlan .lan_nr .imgscroll .tuwen p a {
+	display: inline;
+}
+#classresult .classshowLan .lunhuanlan .Rbtn {
+	float: right;
+	cursor: pointer;
+}
+#classresult .classshowLan .lunhuanlan .Rbtn .next {
+	background: url("/static/iframe/videoguess/images/bg/bg_btnRx.gif") no-repeat scroll 0 0 transparent;
+	display: block;
+	height: 24px;
+	width: 14px;
+	margin: 55px 0 0 0;
+}
